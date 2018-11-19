@@ -18,8 +18,8 @@ class ArrayAnalyse
 
     /**
      * 入口方法
-     * @param  array $data 需处理数组
-     * @return ArrayPlus
+     * @param  array $data 待处理数组
+     * @return ArrayAnalyse
      */
     public static function create(array $data)
     {
@@ -30,7 +30,7 @@ class ArrayAnalyse
      * 创建多维数组
      * @param array $pathArray 以地址数组的方式传入
      * @param string $pathDelimiter  键名分隔符号
-     * @return ArrayPlus
+     * @return ArrayAnalyse
      * @throws Exception
      */
     public static function builderArray(array $pathArray,$pathDelimiter)
@@ -46,7 +46,7 @@ class ArrayAnalyse
 
     /**
      * 构造方法
-     * ArrayPlus constructor.
+     * ArrayAnalyse constructor.
      * @param array $data 需处理数组
      */
     public function __construct(array $data)
@@ -308,7 +308,7 @@ class ArrayAnalyse
      * 把数组分割为新的数组块
      * @param int $size 规定每个新数组包含多少个元素
      * @param bool $preserveKeys 默认false;每个结果数组使用从零开始的新数组索引
-     * @return ArrayPlus
+     * @return ArrayAnalyse
      * @throws Exception
      */
     public function chunk($size, $preserveKeys = false) {
