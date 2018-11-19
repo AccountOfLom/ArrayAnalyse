@@ -1,0 +1,19 @@
+{
+    "name": "array-analyse/array-analyse",
+    "description": "array analyse",
+    "authors": [
+        {
+            "name": "lom",
+            "email":"lishalom@sina.com"
+        }
+    ],
+    "license": "MIT",
+    "require": {
+        "php": ">=7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "ArrayAnalyse\\": "src/"
+        }
+    }
+}
