@@ -1,21 +1,20 @@
 {
     "name": "array-analyse/array-analyse",
-    "require": {
-        "php": "^7.0"
-    },
-    "require-dev": {
-        "composer/composer": "1.0.*@dev"
-    },
-    "license": "Apache-2.0",
+    "description": "array analyse",
     "authors": [
         {
             "name": "lom",
-            "email": "lishalom@sian.com"
+            "email":"lishalom@sina.com"
         }
     ],
+    "license": "MIT",
+    "require": {
+        "php": ">=7.0"
+    },
+    "minimum-stability":"stable",
     "autoload": {
         "psr-4": {
-            "array-analyse\\composer\\": "src"
+            "ArrayAnalyse\\": "src/"
         }
     }
 }
