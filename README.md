@@ -1,5 +1,3 @@
-# ArrayAnalyse
-
 <h2>玩转多维数组</h2>
 
 ```php
